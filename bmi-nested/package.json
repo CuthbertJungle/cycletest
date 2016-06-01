@@ -5,10 +5,10 @@
   "author": "Andre Staltz",
   "license": "MIT",
   "dependencies": {
-    "@cycle/xstream-run": "1.0.1",
-    "@cycle/dom": "10.0.0-rc11",
+    "@cycle/xstream-run": "1.1.1",
+    "@cycle/dom": "10.0.0-rc26",
     "@cycle/isolate": "1.1.x",
-    "xstream": "2.1.x"
+    "xstream": "2.6.2"
   },
   "devDependencies": {
     "browserify": "11.0.1",
