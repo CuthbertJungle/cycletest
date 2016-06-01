@@ -12,8 +12,7 @@ function Footer({DOM}) {
   let vtree$ = xs.combine(
     function (footerLinksVTree){
       return footer([
-        footerLinksVtree,
-        footerSmallPrintVtree
+        footerLinksVtree
       ])
     },
     footerLinks.DOM.debug('footerLinksDOM')//, FooterSmallPrint.DOM.debug('footerSmallPrintDOM')
