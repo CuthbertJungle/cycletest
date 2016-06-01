@@ -2,6 +2,7 @@ import xs from 'xstream';
 import {div, span, input} from '@cycle/dom';
 
 function LabeledSlider({DOM, props$}) {
+  
   let initialValue$ = props$.map(props => props.initial).take(1);
   let newValue$ = DOM.select('.slider').events('input').map(ev => ev.target.value);
   let value$ = initialValue$.merge(newValue$).remember();
